@@ -55,12 +55,52 @@ nav>ul{
     border-radius: 10px;
     border: none;
 }
-@media (max-width: 320px) {
+.header-m{
+    width: 100%;
+    background-color: rgb(113, 113, 113);
+}
+.header-m>img{
+    width: 20%;
+    margin: 10px 40%;
+}
+.menu-m{
+    width: 100%;
+}
+.menu-m>p{
+    color: white;
+    text-align: center;
+}
+.searchPanel-m{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+.nav-m{
+    display: none;
+}
+.menu-m:hover+ul{
+    display: block;
+}
+.nav-m>li{
+    margin: 10px 0px;
+    width: 100%;
+}
+.nav-m>li>div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.nav-a-m{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.nav-a-m:hover{
+    color: greenyellow;
+}
+@media (max-width: 425px) {
     
     header{
         display: none;
-    }
-    body{
-        background: red;
     }
 }
